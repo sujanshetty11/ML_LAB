@@ -10,11 +10,6 @@ digits = load_digits()
 X = digits.data
 y = digits.target
 
-# Create a DataFrame to visualize the data
-digits_df = pd.DataFrame(data=X)
-digits_df['target'] = y
-print(digits_df.head())
-
 # Split the dataset into test and train and standardize the datasets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 scaler = StandardScaler()
