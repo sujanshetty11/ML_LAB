@@ -8,5 +8,5 @@ Questions:
 6.Implement Random Forest classifier using python programming
 7.Demonstrate the text classifier using Naive Bayes classifier algorithm
 8.Implement the Naive Bayesian classifier for a sample training data set stored as a .CSV file
-9.Construct a Bayesian network to analyze the diagnosis of heart patients using heart diseases dataset
+9.Construct a Bayesian network to analyze the diagnosis of heart patients using heart diseases datasets
 10.Implement KNN classification algorithm with an appropriate dataset and analyze the results
