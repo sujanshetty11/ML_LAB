@@ -30,7 +30,7 @@ print(f"Accuracy: {accuracy * 100:.2f}%")
 
 # Print the classification report
 print("\nClassification Report:")
-print(classification_report(y_test, y_pred, target_names=newsgroups.target_names))
+print(classification_report(y_test, y_pred))
 
 # Confusion Matrix
 conf_mat = confusion_matrix(y_test, y_pred)

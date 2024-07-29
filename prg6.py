@@ -26,15 +26,12 @@ rf_reg = RandomForestRegressor(
     random_state=42
 )
 rf_reg.fit(X_train, y_train)
-
 # Make predictions
 y_pred = rf_reg.predict(X_test)
-
 # Evaluate the model
 mse = mean_squared_error(y_test, y_pred)
 rmse = np.sqrt(mse)
 print(f"Root Mean Squared Error: {rmse:.2f}")
-
 # Visualize one of the trees in the Random Forest
 plt.figure(figsize=(20, 10))
 tree.plot_tree(rf_reg.estimators_[0], feature_names=california_housing.feature_names, filled=True)
