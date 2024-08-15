@@ -1,7 +1,7 @@
 Questions:
 
 1.Implement the Find-S algorithm for finding the most specific hypothesis
-2.Implement and demonstrate the Candidate Elimination algorithm using a data set stored as a .CSV file
+2.Implement the Candidate Elimination algorithm using a data set stored as a .CSV file
 3.Demonstrate data Preprocessing (Data Cleaning, Integration and Transformation) operations on a suitable data
 4.Demonstrate the working of SVM classifier for a suitable dataset
 5.Implement and demonstrate the working of the Decision Tree algorithm
